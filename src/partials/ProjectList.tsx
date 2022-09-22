@@ -59,13 +59,13 @@ const ProjectList = () => (
       />
       <Project
         name="Dream House Matcher"
-        description="A simple project made to learn react and redux on the frontend. 
-        Features the ability to match house designs with the lots they could 
-        potentially be built in. Pulls in all data from an API and stores it in 
-        the global state."
+        description="A simple project made to better understand how react and 
+        redux interact on the frontend. Features the ability to match house 
+        designs with the lots they could potentially be built in. Pulls in 
+        all data from an API and stores it in the global state."
         link="/"
         img={{
-          src: '/assets/images/project-web-design.png',
+          src: '/assets/images/react-home-picker.png',
           alt: 'Dream House Matcher Image',
         }}
         category={

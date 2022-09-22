@@ -31,28 +31,40 @@ const Hero = () => (
       }
       socialButtons={
         <>
-          <a href="/">
+          <a href="https://github.com/FitzHawke">
             <HeroSocial
               src="/assets/images/icons8-github-64.png"
+              alt="GitHub icon"
+            />
+          </a>
+          <a href="https://twitter.com/FitzHawke">
+            <HeroSocial
+              src="/assets/images/icons8-twitter-64.png"
               alt="Twitter icon"
             />
           </a>
-          <a href="/">
-            <HeroSocial
-              src="/assets/images/icons8-twitter-64.png"
-              alt="Facebook icon"
-            />
-          </a>
-          <a href="/">
+          <a href="https://www.linkedin.com/in/will-featherston/">
             <HeroSocial
               src="/assets/images/icons8-linkedin-64.png"
               alt="Linkedin icon"
             />
           </a>
-          <a href="/">
+          <a href="https://angel.co/u/will-featherston">
             <HeroSocial
               src="/assets/images/icons8-angellist-64.png"
-              alt="Youtube icon"
+              alt="AngelList icon"
+            />
+          </a>
+          <a href="mailto:will.featherston@gmail.com">
+            <HeroSocial
+              src="/assets/images/icons8-mail-64.png"
+              alt="Email icon"
+            />
+          </a>
+          <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ">
+            <HeroSocial
+              src="/assets/images/icons8-john-wick-64.png"
+              alt="John Wick icon"
             />
           </a>
         </>
