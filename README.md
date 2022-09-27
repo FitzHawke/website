@@ -30,7 +30,7 @@
 <!-- PROJECT LOGO -->
 <br />
 <div align="center">
-  <a href="https://github.com/FitzHawke/portfolio">
+  <a href="https://github.com/FitzHawke/Portfolio">
     <img src="public/assets/images/logo.png" alt="Logo" width="80" height="80">
   </a>
 
@@ -39,14 +39,14 @@
   <p align="center">
     project_description
     <br />
-    <a href="https://github.com/FitzHawke/portfolio"><strong>Explore the docs »</strong></a>
+    <a href="https://github.com/FitzHawke/Portfolio"><strong>Explore the docs »</strong></a>
     <br />
     <br />
     <a href="https://fitzhawke.com">View Demo</a>
     ·
-    <a href="https://github.com/FitzHawke/portfolio/issues">Report Bug</a>
+    <a href="https://github.com/FitzHawke/Portfolio/issues">Report Bug</a>
     ·
-    <a href="https://github.com/FitzHawke/portfolio/issues">Request Feature</a>
+    <a href="https://github.com/FitzHawke/Portfolio/issues">Request Feature</a>
   </p>
 </div>
 
@@ -83,7 +83,7 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-![Portfolio Screenshot](/public/assets/images/portfolio.png)
+![Portfolio Screenshot](/public/assets/images/Portfolio.png)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -123,7 +123,7 @@ This is an example of how to list things you need to use the software and how to
 1. Get a free API Key at [https://example.com](https://example.com)
 2. Clone the repo
    ```sh
-   git clone https://github.com/FitzHawke/portfolio.git
+   git clone https://github.com/FitzHawke/Portfolio.git
    ```
 3. Install NPM packages
    ```sh
@@ -158,7 +158,7 @@ prefer.
 
 Clone this repository on own GitHub account and deploy to Netlify:
 
-[![Netlify Deploy button](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/FitzHawke/portfolio/)
+[![Netlify Deploy button](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/FitzHawke/Portfolio/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -167,13 +167,13 @@ Clone this repository on own GitHub account and deploy to Netlify:
 <!-- ROADMAP -->
 ## Roadmap
 
-- [x] Add projects to portfolio
+- [x] Add projects to Portfolio
 - [ ] Put the site up live and link to domain
 - [ ] Add a real photo
 - [ ] Change out bottom 'subscribe to' section
 - [ ] Finish fleshing out README
 
-See the [open issues](https://github.com/FitzHawke/portfolio/issues) for a full list of proposed features (and known issues).
+See the [open issues](https://github.com/FitzHawke/Portfolio/issues) for a full list of proposed features (and known issues).
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -211,7 +211,7 @@ Distributed under the MIT License. See `LICENSE.md` for more information.
 
 Your Name - [@FitzHawke](https://twitter.com/FitzHawke) - will.featherston@gmail.com
 
-Project Link: [https://github.com/FitzHawke/portfolio](https://github.com/FitzHawke/portfolio)
+Project Link: [https://github.com/FitzHawke/Portfolio](https://github.com/FitzHawke/Portfolio)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -230,16 +230,16 @@ Project Link: [https://github.com/FitzHawke/portfolio](https://github.com/FitzHa
 
 <!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
-[contributors-shield]: https://img.shields.io/github/contributors/FitzHawke/portfolio.svg?style=for-the-badge
-[contributors-url]: https://github.com/FitzHawke/portfolio/graphs/contributors
-[forks-shield]: https://img.shields.io/github/forks/FitzHawke/portfolio.svg?style=for-the-badge
-[forks-url]: https://github.com/FitzHawke/portfolio/network/members
-[stars-shield]: https://img.shields.io/github/stars/FitzHawke/portfolio.svg?style=for-the-badge
-[stars-url]: https://github.com/FitzHawke/portfolio/stargazers
-[issues-shield]: https://img.shields.io/github/issues/FitzHawke/portfolio.svg?style=for-the-badge
-[issues-url]: https://github.com/FitzHawke/portfolio/issues
-[license-shield]: https://img.shields.io/github/license/FitzHawke/portfolio.svg?style=for-the-badge
-[license-url]: https://github.com/FitzHawke/portfolio/blob/master/LICENSE.txt
+[contributors-shield]: https://img.shields.io/github/contributors/FitzHawke/Portfolio.svg?style=for-the-badge
+[contributors-url]: https://github.com/FitzHawke/Portfolio/graphs/contributors
+[forks-shield]: https://img.shields.io/github/forks/FitzHawke/Portfolio.svg?style=for-the-badge
+[forks-url]: https://github.com/FitzHawke/Portfolio/network/members
+[stars-shield]: https://img.shields.io/github/stars/FitzHawke/Portfolio.svg?style=for-the-badge
+[stars-url]: https://github.com/FitzHawke/Portfolio/stargazers
+[issues-shield]: https://img.shields.io/github/issues/FitzHawke/Portfolio.svg?style=for-the-badge
+[issues-url]: https://github.com/FitzHawke/Portfolio/issues
+[license-shield]: https://img.shields.io/github/license/FitzHawke/Portfolio.svg?style=for-the-badge
+[license-url]: https://github.com/FitzHawke/Portfolio/blob/master/LICENSE.txt
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
 [linkedin-url]: https://linkedin.com/in/will-featherston
 [product-screenshot]: images/screenshot.png
