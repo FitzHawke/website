@@ -1,85 +1,149 @@
-# Astro Portfolio with TypeScript and Tailwind CSS
+<!-- Improved compatibility of back to top link: See: https://github.com/othneildrew/Best-README-Template/pull/73 -->
+<a name="readme-top"></a>
+<!--
+*** Thanks for checking out the Best-README-Template. If you have a suggestion
+*** that would make this better, please fork the repo and create a pull request
+*** or simply open an issue with the tag "enhancement".
+*** Don't forget to give the project a star!
+*** Thanks again! Now go create something AMAZING! :D
+-->
 
-🚀 Astro Boilerplate is starter code for your blog or portfolio based on Astro
-with Tailwind CSS 3.0. ⚡️ Made with Astro, TypeScript, ESLint, Prettier,
-Tailwind CSS.
 
-Clone this project and use it to create your own Astro blog. You can check the
-[Astro templates demo](https://creativedesignsguru.com/demo/astro-boilerplate/).
 
-## Features
+<!-- PROJECT SHIELDS -->
+<!--
+*** I'm using markdown "reference style" links for readability.
+*** Reference links are enclosed in brackets [ ] instead of parentheses ( ).
+*** See the bottom of this document for the declaration of the reference variables
+*** for contributors-url, forks-url, etc. This is an optional, concise syntax you may use.
+*** https://www.markdownguide.org/basic-syntax/#reference-style-links
+-->
+[![Contributors][contributors-shield]][contributors-url]
+[![Forks][forks-shield]][forks-url]
+[![Stargazers][stars-shield]][stars-url]
+[![Issues][issues-shield]][issues-url]
+[![MIT License][license-shield]][license-url]
+[![LinkedIn][linkedin-shield]][linkedin-url]
 
-A complete Blog feature:
 
-- 🎈 Syntax Highlighting
-- 🤖 SEO friendly with sitemap.xml and robots.txt
-- ⚙️ RSS feed
-- 📖 Pagination
-- 🌈 Include a dark blog theme
-- ⬇️ Markdown
-- 📦 Image lazy loading
-- 💎 Responsive design
 
-Developer experience first:
+<!-- PROJECT LOGO -->
+<br />
+<div align="center">
+  <a href="https://github.com/FitzHawke/portfolio">
+    <img src="images/logo.png" alt="Logo" width="80" height="80">
+  </a>
 
-- 🔥 Astro
-- 🎨 Tailwind CSS with aspect ratio and typography plugin
-- 🎉 TypeScript
-- ✏️ ESLint compatible with .astro files
-- 🛠 Prettier compatible with .astro files
-- 🦊 Husky
-- 🚫 lint-staged
-- 🚨 Commitlint
-- 🔧 One-click deploy on Netlify (or, manual if you prefer)
+<h3 align="center">FitzHawke's Portfolio</h3>
 
-ESLint with:
+  <p align="center">
+    project_description
+    <br />
+    <a href="https://github.com/FitzHawke/portfolio"><strong>Explore the docs »</strong></a>
+    <br />
+    <br />
+    <a href="https://fitzhawke.com">View Demo</a>
+    ·
+    <a href="https://github.com/FitzHawke/portfolio/issues">Report Bug</a>
+    ·
+    <a href="https://github.com/FitzHawke/portfolio/issues">Request Feature</a>
+  </p>
+</div>
 
-- Airbnb styled guide
-- TypeScript compatible
-- Astro compatible
-- Automatically remove unused imports
-- Import sorting
-- Tailwind CSS plugin
 
-### Philosophy
 
-- Minimal code
-- SEO-friendly
-- 🚀 Production-ready
+<!-- TABLE OF CONTENTS -->
+<details>
+  <summary>Table of Contents</summary>
+  <ol>
+    <li>
+      <a href="#about-the-project">About The Project</a>
+      <ul>
+        <li><a href="#built-with">Built With</a></li>
+      </ul>
+    </li>
+    <li>
+      <a href="#getting-started">Getting Started</a>
+      <ul>
+        <li><a href="#prerequisites">Prerequisites</a></li>
+        <li><a href="#installation">Installation</a></li>
+      </ul>
+    </li>
+    <li><a href="#usage">Usage</a></li>
+    <li><a href="#roadmap">Roadmap</a></li>
+    <li><a href="#contributing">Contributing</a></li>
+    <li><a href="#license">License</a></li>
+    <li><a href="#contact">Contact</a></li>
+    <li><a href="#acknowledgments">Acknowledgments</a></li>
+  </ol>
+</details>
 
-### Requirements
 
-- Node.js and npm
 
-#### Optional
+<!-- ABOUT THE PROJECT -->
+## About The Project
 
-- [nvm](https://github.com/nvm-sh/nvm)
-- [volta](https://volta.sh/)
+[![Product Name Screen Shot][product-screenshot]](https://example.com)
 
-While Astro-boilerplate should work with the latest Node version, it has been
-tested with the versions in .nvmrc & the bottom of package.json. At current
-writing, that's Node v16.15.1
+Here's a blank template to get started: To avoid retyping too much info. Do a search and replace with your text editor for the following: `FitzHawke`, `portfolio`, `FitzHawke`, `will-featherston`, `email_client`, `email`, `FitzHawke's Portfolio`, `project_description`
 
-### Getting started
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-Run the following command on your local environment:
 
-``` bash
-git clone --depth=1 https://github.com/ixartz/Astro-boilerplate
-cd my-project-name
-npm install
-```
 
-Then, you can run locally in development mode with live reload:
+### Built With
 
-``` bash
-npm run dev
-```
+* [![Next][Next.js]][Next-url]
+* [![React][React.js]][React-url]
+* [![Vue][Vue.js]][Vue-url]
+* [![Angular][Angular.io]][Angular-url]
+* [![Svelte][Svelte.dev]][Svelte-url]
+* [![Laravel][Laravel.com]][Laravel-url]
+* [![Bootstrap][Bootstrap.com]][Bootstrap-url]
+* [![JQuery][JQuery.com]][JQuery-url]
 
-Open [http://localhost:3000](http://localhost:3000) with your favorite browser
-to see your project.
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-### Deploy to production (manual)
+
+
+<!-- GETTING STARTED -->
+## Getting Started
+
+This is an example of how you may give instructions on setting up your project locally.
+To get a local copy up and running follow these simple example steps.
+
+### Prerequisites
+
+This is an example of how to list things you need to use the software and how to install them.
+* npm
+  ```sh
+  npm install npm@latest -g
+  ```
+
+### Installation
+
+1. Get a free API Key at [https://example.com](https://example.com)
+2. Clone the repo
+   ```sh
+   git clone https://github.com/FitzHawke/portfolio.git
+   ```
+3. Install NPM packages
+   ```sh
+   npm install
+   ```
+4. Enter your API in `config.js`
+   ```js
+   const API_KEY = 'ENTER YOUR API';
+   ```
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+
+
+<!-- USAGE EXAMPLES -->
+## Usage
+
+#### Deploy to production
 
 You can create an optimized production build with:
 
@@ -91,40 +155,109 @@ Now, your blog is ready to be deployed. All generated files are located at
 `dist` folder, which you can deploy the folder to any hosting service you
 prefer.
 
-### Deploy to Netlify
+
+#### Deploy to Netlify
 
 Clone this repository on own GitHub account and deploy to Netlify:
 
-[![Netlify Deploy button](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/ixartz/Astro-boilerplate)
+[![Netlify Deploy button](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/FitzHawke/portfolio/)
 
-## 🧞 Commands
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-All commands are run from the root of the project, from a terminal:
 
-| Command           | Action                                       |
-|:----------------  |:-------------------------------------------- |
-| `npm install`     | Installs dependencies                        |
-| `npm run dev`     | Starts local dev server at `localhost:3000`  |
-| `npm run build`   | Build your production site to `./dist/`      |
-| `npm run preview` | Preview your build locally, before deploying |
-| `npm run clean`   | Remove `./dist` folder                       |
-| `npm run lint`    | Run ESLint and report styling error          |
 
-### Contributions
+<!-- ROADMAP -->
+## Roadmap
 
-Everyone is welcome to contribute to this project.
-Feel free to open an issue if you have question or found a bug.
+- [x] Add projects to portfolio
+- [ ] Put the site up live and link to domain
+- [ ] Add a real photo
+- [ ] Change out bottom 'subscribe to' section
+- [ ] Finish fleshing out README
 
-### Additional Checks
+See the [open issues](https://github.com/FitzHawke/portfolio/issues) for a full list of proposed features (and known issues).
 
-This README.md was linted with
-[markdownlint](https://github.com/igorshubovych/markdownlint-cli)
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-### License
 
-Licensed under the MIT License, Copyright © 2022
 
----
+<!-- CONTRIBUTING -->
+## Contributing
 
-Made with ♥ by [CreativeDesignsGuru](https://creativedesignsguru.com)
-[![Twitter](https://img.shields.io/twitter/url/https/twitter.com/cloudposse.svg?style=social&label=Follow%20%40Ixartz)](https://twitter.com/ixartz)
+Contributions are what make the open source community such an amazing place to learn, inspire, and create. Any contributions you make are **greatly appreciated**.
+
+If you have a suggestion that would make this better, please fork the repo and create a pull request. You can also simply open an issue with the tag "enhancement".
+Don't forget to give the project a star! Thanks again!
+
+1. Fork the Project
+2. Create your Feature Branch (`git checkout -b feature/AmazingFeature`)
+3. Commit your Changes (`git commit -m 'Add some AmazingFeature'`)
+4. Push to the Branch (`git push origin feature/AmazingFeature`)
+5. Open a Pull Request
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+
+
+<!-- LICENSE -->
+## License
+
+Distributed under the MIT License. See `LICENSE.md` for more information.
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+
+
+<!-- CONTACT -->
+## Contact
+
+Your Name - [@FitzHawke](https://twitter.com/FitzHawke) - will.featherston@gmail.com
+
+Project Link: [https://github.com/FitzHawke/portfolio](https://github.com/FitzHawke/portfolio)
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+
+
+<!-- ACKNOWLEDGMENTS -->
+## Acknowledgments
+
+* [CreativeDesignsGuru](https://creativedesignsguru.com)
+* [100Devs](https://leonnoel.com)
+* []()
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+
+
+<!-- MARKDOWN LINKS & IMAGES -->
+<!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
+[contributors-shield]: https://img.shields.io/github/contributors/FitzHawke/portfolio.svg?style=for-the-badge
+[contributors-url]: https://github.com/FitzHawke/portfolio/graphs/contributors
+[forks-shield]: https://img.shields.io/github/forks/FitzHawke/portfolio.svg?style=for-the-badge
+[forks-url]: https://github.com/FitzHawke/portfolio/network/members
+[stars-shield]: https://img.shields.io/github/stars/FitzHawke/portfolio.svg?style=for-the-badge
+[stars-url]: https://github.com/FitzHawke/portfolio/stargazers
+[issues-shield]: https://img.shields.io/github/issues/FitzHawke/portfolio.svg?style=for-the-badge
+[issues-url]: https://github.com/FitzHawke/portfolio/issues
+[license-shield]: https://img.shields.io/github/license/FitzHawke/portfolio.svg?style=for-the-badge
+[license-url]: https://github.com/FitzHawke/portfolio/blob/master/LICENSE.txt
+[linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
+[linkedin-url]: https://linkedin.com/in/will-featherston
+[product-screenshot]: images/screenshot.png
+[Next.js]: https://img.shields.io/badge/next.js-000000?style=for-the-badge&logo=nextdotjs&logoColor=white
+[Next-url]: https://nextjs.org/
+[React.js]: https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB
+[React-url]: https://reactjs.org/
+[Vue.js]: https://img.shields.io/badge/Vue.js-35495E?style=for-the-badge&logo=vuedotjs&logoColor=4FC08D
+[Vue-url]: https://vuejs.org/
+[Angular.io]: https://img.shields.io/badge/Angular-DD0031?style=for-the-badge&logo=angular&logoColor=white
+[Angular-url]: https://angular.io/
+[Svelte.dev]: https://img.shields.io/badge/Svelte-4A4A55?style=for-the-badge&logo=svelte&logoColor=FF3E00
+[Svelte-url]: https://svelte.dev/
+[Laravel.com]: https://img.shields.io/badge/Laravel-FF2D20?style=for-the-badge&logo=laravel&logoColor=white
+[Laravel-url]: https://laravel.com
+[Bootstrap.com]: https://img.shields.io/badge/Bootstrap-563D7C?style=for-the-badge&logo=bootstrap&logoColor=white
+[Bootstrap-url]: https://getbootstrap.com
+[JQuery.com]: https://img.shields.io/badge/jQuery-0769AD?style=for-the-badge&logo=jquery&logoColor=white
+[JQuery-url]: https://jquery.com 

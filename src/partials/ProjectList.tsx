@@ -13,15 +13,15 @@ const ProjectList = () => (
   >
     <div className="flex flex-col gap-6">
       <Project
-        name="Summer Bod"
+        name="PEFS"
         description="A fitness tracker to monitor progress as you get into shape. 
-        Currently allows for tracking of strength workouts, running and biking. 
-        In the future it will also contain graphs to view progress, weight tracking 
-        and strength workout progression."
-        link="/"
+        Currently allows for tracking of time distance and pace of runns. 
+        In the future it will also tracking of biking, strength workout progression,
+        weight tracking and graphs to view progress."
+        link="https://pefs.cyclic.app/"
         img={{
-          src: '/assets/images/project-web-design.png',
-          alt: 'Summer Bod App Image',
+          src: '/assets/images/PEFS.png',
+          alt: 'PEFS App Image',
         }}
         category={
           <>
@@ -80,9 +80,9 @@ const ProjectList = () => (
         name="This Very Website!"
         description="A quick and responsive portfolio website built using all the 
         latest and greatest technologies."
-        link="https://FitzHawke.com"
+        link="https://fitzhawke.com"
         img={{
-          src: '/assets/images/project-web-design.png',
+          src: '/assets/images/portfolio.png',
           alt: 'Image of this Portfolio',
         }}
         category={
