@@ -31,7 +31,7 @@
 <br />
 <div align="center">
   <a href="https://github.com/FitzHawke/portfolio">
-    <img src="images/logo.png" alt="Logo" width="80" height="80">
+    <img src="public/assets/images/logo.png" alt="Logo" width="80" height="80">
   </a>
 
 <h3 align="center">FitzHawke's Portfolio</h3>
@@ -83,9 +83,7 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-[![Product Name Screen Shot][product-screenshot]](https://example.com)
-
-Here's a blank template to get started: To avoid retyping too much info. Do a search and replace with your text editor for the following: `FitzHawke`, `portfolio`, `FitzHawke`, `will-featherston`, `email_client`, `email`, `FitzHawke's Portfolio`, `project_description`
+![Portfolio Screenshot](/public/assets/images/portfolio.png)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
