@@ -23,9 +23,9 @@ const Hero = () => (
       }
       avatar={
         <img
-          className="h-40 w-40 rounded-full border-8 border-slate-800 object-cover"
-          src="/assets/images/todd-bust.png"
-          alt="Avatar image"
+          className="h-60 w-60 rounded-full border-8 border-slate-800 object-cover"
+          src="/assets/images/Photo.png"
+          alt="Photo"
           loading="lazy"
         />
       }
