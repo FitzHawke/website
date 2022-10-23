@@ -94,6 +94,23 @@ const ProjectList = () => (
           </>
         }
       />
+      <Project
+        name="Steves Portfolio"
+        description="A project made for a client and filled in with stock images as placeholders"
+        link="https://steves-portfolio.netlify.app/"
+        img={{
+          src: '/assets/images/Steve-Portfolio.png',
+          alt: 'Image of this Portfolio',
+        }}
+        category={
+          <>
+            <Tags color={ColorTags.SKY}>HTML</Tags>
+            <Tags color={ColorTags.RED}>CSS</Tags>
+            <Tags color={ColorTags.SLATE}>SCSS</Tags>
+            <Tags color={ColorTags.FUCHSIA}>Javascript</Tags>
+          </>
+        }
+      />
     </div>
   </Section>
 );
