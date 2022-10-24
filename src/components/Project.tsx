@@ -16,7 +16,7 @@ const Project = (props: IProjectProps) => (
     <div className="shrink-0">
       <a href={props.link}>
         <img
-          className="h-52 max-w-xs hover:translate-y-1"
+          className="h-44 w-80 hover:translate-y-1"
           src={props.img.src}
           alt={props.img.alt}
           loading="lazy"
