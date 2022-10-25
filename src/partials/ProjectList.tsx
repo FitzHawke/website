@@ -96,7 +96,7 @@ const ProjectList = () => (
       />
       <Project
         name="Steves Portfolio"
-        description="A portfolio project made for a client and filled in with stock images as placeholders"
+        description="A portfolio display project made for a client and filled in with stock images as placeholders."
         link="https://steves-portfolio.netlify.app/"
         img={{
           src: '/assets/images/Steve-Portfolio.png',

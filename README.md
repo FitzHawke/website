@@ -42,15 +42,13 @@
     <a href="https://github.com/FitzHawke/Portfolio"><strong>Explore the docs »</strong></a>
     <br />
     <br />
-    <a href="https://fitzhawke.com">View Demo</a>
+    <a href="https://fitzhawke.com">View Live Page</a>
     ·
     <a href="https://github.com/FitzHawke/Portfolio/issues">Report Bug</a>
     ·
     <a href="https://github.com/FitzHawke/Portfolio/issues">Request Feature</a>
   </p>
 </div>
-
-
 
 <!-- TABLE OF CONTENTS -->
 <details>
@@ -83,7 +81,7 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-![Portfolio Screenshot](/public/assets/images/Portfolio.png)
+![Portfolio Screenshot](/public/assets/images/portfolio.png)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -91,14 +89,10 @@
 
 ### Built With
 
-* [![Next][Next.js]][Next-url]
-* [![React][React.js]][React-url]
-* [![Vue][Vue.js]][Vue-url]
-* [![Angular][Angular.io]][Angular-url]
-* [![Svelte][Svelte.dev]][Svelte-url]
-* [![Laravel][Laravel.com]][Laravel-url]
-* [![Bootstrap][Bootstrap.com]][Bootstrap-url]
-* [![JQuery][JQuery.com]][JQuery-url]
+- Astro
+- React
+- Tailwind
+- Typescript
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -107,31 +101,21 @@
 <!-- GETTING STARTED -->
 ## Getting Started
 
-This is an example of how you may give instructions on setting up your project locally.
 To get a local copy up and running follow these simple example steps.
-
-### Prerequisites
-
-This is an example of how to list things you need to use the software and how to install them.
-* npm
-  ```sh
-  npm install npm@latest -g
-  ```
 
 ### Installation
 
-1. Get a free API Key at [https://example.com](https://example.com)
-2. Clone the repo
+1. Clone the repo
    ```sh
    git clone https://github.com/FitzHawke/Portfolio.git
    ```
-3. Install NPM packages
+2. Install NPM packages
    ```sh
    npm install
    ```
-4. Enter your API in `config.js`
-   ```js
-   const API_KEY = 'ENTER YOUR API';
+3. Start the development server
+   ```sh
+   npm run dev
    ```
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
@@ -149,7 +133,7 @@ You can create an optimized production build with:
 npm run build
 ```
 
-Now, your blog is ready to be deployed. All generated files are located at
+Now, your portfolio is ready to be deployed. All generated files are located at
 `dist` folder, which you can deploy the folder to any hosting service you
 prefer.
 
@@ -168,9 +152,8 @@ Clone this repository on own GitHub account and deploy to Netlify:
 ## Roadmap
 
 - [x] Add projects to Portfolio
-- [ ] Put the site up live and link to domain
-- [ ] Add a real photo
-- [ ] Change out bottom 'subscribe to' section
+- [x] Put the site up live and link to domain
+- [ ] Change out bottom section to links
 - [ ] Finish fleshing out README
 
 See the [open issues](https://github.com/FitzHawke/Portfolio/issues) for a full list of proposed features (and known issues).
@@ -209,24 +192,11 @@ Distributed under the MIT License. See `LICENSE.md` for more information.
 <!-- CONTACT -->
 ## Contact
 
-Your Name - [@FitzHawke](https://twitter.com/FitzHawke) - will.featherston@gmail.com
+[@FitzHawke](https://twitter.com/FitzHawke)
 
 Project Link: [https://github.com/FitzHawke/Portfolio](https://github.com/FitzHawke/Portfolio)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-
-
-<!-- ACKNOWLEDGMENTS -->
-## Acknowledgments
-
-* [CreativeDesignsGuru](https://creativedesignsguru.com)
-* [100Devs](https://leonnoel.com)
-* []()
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-
 
 <!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
