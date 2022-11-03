@@ -1,0 +1,16 @@
+export const tagColour: Record<string, string> = {
+  JavaScript: 'fuchsia',
+  MongoDB: 'emerald',
+  Express: 'stone',
+  'React.js': 'cyan',
+  'Node.js': 'green',
+  Redux: 'indigo',
+  'Passport.js': 'yellow',
+  EJS: 'rose',
+  CSS: 'red',
+  TypeScript: 'blue',
+  'Astro.js': 'orange',
+  'Tailwind.css': 'teal',
+  SCSS: 'slate',
+  HTML: 'sky',
+} as const;

@@ -146,8 +146,6 @@ Clone this repository on own GitHub account and deploy to Netlify:
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-
-
 <!-- ROADMAP -->
 ## Roadmap
 
