@@ -11,7 +11,7 @@ const CTA = () => (
           <GradientText>Connect</GradientText> with me!
         </>
       }
-      description="Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit nostrum nam vitae ad voluptates, ducimus aliquid in maxime sunt molestias tempore assumenda incidunt modi eius distinctio ab, voluptate omnis reprehenderit."
+      description="I am currently looking for full-time remote or hybrid roles. If the right opportunity presents itself, I am willing to relocate. If you would like to work with me or have any feedback on my projects I'd love to hear from you!"
       links={
         <>
           <Link
