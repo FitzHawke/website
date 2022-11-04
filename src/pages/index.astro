@@ -1,13 +1,13 @@
 ---
 // import { CTA } from '@/partials/CTA';
-import { Project } from '@/components/Project';
+import { GradientText } from '@/components/react/GradientText';
+import Project from '@/partials/Project.astro';
 import { AppConfig } from '@/data/appConfig';
 import { projects } from '@/data/projects';
 import { CTA } from '@/partials/CTA';
 import { Hero } from '@/partials/Hero';
-import { ProjectList } from '@/partials/ProjectList';
 
-import Base from './Base.astro';
+import Base from '../Base.astro';
 
 const { title } = AppConfig;
 const { description } = AppConfig;
@@ -15,8 +15,9 @@ const { description } = AppConfig;
 
 <Base head={{ title, description }}>
   <Hero />
-  <ProjectList>
-    <div class="flex flex-col gap-4">
+  <div class="mx-auto max-w-screen-lg px-3 py-6">
+    <h2 class="mb-6 text-2xl font-bold"> Recent <GradientText>Projects</GradientText> </h2>
+    <div class="flex flex-col gap-6">
       {
         projects.map((project) => {
           return (
@@ -31,6 +32,6 @@ const { description } = AppConfig;
         })
       }
     </div>
-  </ProjectList>
+  </div>
   <CTA />
 </Base>

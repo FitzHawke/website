@@ -1,7 +1,7 @@
-import { GradientText } from '@/components/GradientText';
-import { Link } from '@/components/Link';
-import { Links } from '@/components/Links';
-import { Section } from '@/components/Section';
+import { GradientText } from '@/components/react/GradientText';
+import { Link } from '@/components/react/Link';
+import { Links } from '@/components/react/Links';
+import { Section } from '@/components/react/Section';
 
 const CTA = () => (
   <Section>

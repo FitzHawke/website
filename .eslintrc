@@ -98,7 +98,8 @@
         "react",
         "unused-imports",
         "tailwindcss",
-        "simple-import-sort"
+        "simple-import-sort",
+        "astro"
       ],
       "extends": [
         "plugin:tailwindcss/recommended",

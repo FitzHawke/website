@@ -1,5 +1,5 @@
-import { FooterCopyright } from '@/components/FooterCopyright';
-import { Section } from '@/components/Section';
+import { FooterCopyright } from '@/components/react/FooterCopyright';
+import { Section } from '@/components/react/Section';
 import { AppConfig } from '@/data/appConfig';
 
 const Footer = () => (

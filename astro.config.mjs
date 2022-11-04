@@ -2,6 +2,7 @@ import { defineConfig } from 'astro/config';
 import react from '@astrojs/react';
 import tailwind from '@astrojs/tailwind';
 import sitemap from '@astrojs/sitemap';
+import image from '@astrojs/image';
 import robotsTxt from 'astro-robots-txt';
 
 // https://astro.build/config
@@ -22,5 +23,13 @@ export default defineConfig({
       theme: 'monokai',
     },
   },
-  integrations: [react(), tailwind({}), sitemap(), robotsTxt()],
+  integrations: [
+    react(),
+    tailwind({}),
+    sitemap(),
+    robotsTxt(),
+    image({
+      serviceEntryPoint: '@astrojs/image/sharp',
+    }),
+  ],
 });

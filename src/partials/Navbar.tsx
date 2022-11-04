@@ -1,8 +1,8 @@
-import { Logo } from '@/components/Logo';
-import { NavbarTwoColumns } from '@/components/NavbarTwoColumns';
-import { NavMenu } from '@/components/NavMenu';
-import { NavMenuItem } from '@/components/NavMenuItem';
-import { Section } from '@/components/Section';
+import { Logo } from '@/components/react/Logo';
+import { NavbarTwoColumns } from '@/components/react/NavbarTwoColumns';
+import { NavMenu } from '@/components/react/NavMenu';
+import { NavMenuItem } from '@/components/react/NavMenuItem';
+import { Section } from '@/components/react/Section';
 
 const Navbar = () => (
   <Section>
