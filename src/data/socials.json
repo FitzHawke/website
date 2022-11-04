@@ -1,0 +1,40 @@
+{
+  "socials": [
+    {
+      "name": "GitHub",
+      "link": "https://github.com/FitzHawke",
+      "imgSrc": "/assets/images/icons8-github-64.png",
+      "imgAlt": "GitHub icon"
+    },
+    {
+      "name": "Twitter",
+      "link": "https://twitter.com/FitzHawke",
+      "imgSrc": "/assets/images/icons8-twitter-64.png",
+      "imgAlt": "Twitter icon"
+    },
+    {
+      "name": "LinkedIn",
+      "link": "https://www.linkedin.com/in/will-featherston/",
+      "imgSrc": "/assets/images/icons8-linkedin-64.png",
+      "imgAlt": "LinkedIn icon"
+    },
+    {
+      "name": "AngelList",
+      "link": "https://angel.co/u/will-featherston",
+      "imgSrc": "/assets/images/icons8-angellist-64.png",
+      "imgAlt": "AngelList icon"
+    },
+    {
+      "name": "Email",
+      "link": "mailto:will.featherston@gmail.com",
+      "imgSrc": "/assets/images/icons8-mail-64.png",
+      "imgAlt": "Email icon"
+    },
+    {
+      "name": "John Wick",
+      "link": "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
+      "imgSrc": "/assets/images/icons8-john-wick-64.png",
+      "imgAlt": "John Wick icon"
+    }
+  ]
+}

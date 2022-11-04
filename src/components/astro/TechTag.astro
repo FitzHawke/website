@@ -1,18 +1,14 @@
 ---
-import { ColorTags, Tags } from "@/components/react/Tags";
-import { tagColour } from "@/data/tagColours";
+import { ColorTags, Tags } from '@/components/react/Tags';
+import { tagColour } from '@/data/tagColours';
 
-type Props = {
-  tag: string;
-};
+const { tag } = Astro.props;
 
-const props = Astro.props;
+let colourSet: string = 'NEUTRAL';
 
-let colourSet: string = "NEUTRAL";
-
-if (tagColour[props.tag as keyof object] !== undefined) {
-  colourSet = tagColour[props.tag as keyof object]!.toUpperCase()
+if (tagColour[tag as keyof object] !== undefined) {
+  colourSet = tagColour[tag as keyof object]!.toUpperCase();
 }
 ---
 
-<Tags color={ColorTags[colourSet as keyof object]}>{props.tag}</Tags>
+<Tags color={ColorTags[colourSet as keyof object]}>{tag}</Tags>

@@ -1,0 +1,15 @@
+---
+import { Image } from '@astrojs/image/components';
+
+const { src, alt, link } = Astro.props;
+---
+
+<a href={link}>
+  <Image
+    src={src}
+    alt={alt}
+    height={48}
+    width={48}
+    class="hover:translate-y-1"
+  />
+</a>
