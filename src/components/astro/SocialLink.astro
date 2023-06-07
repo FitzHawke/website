@@ -11,7 +11,7 @@ const { src, alt, link, text, show } = Astro.props;
     <a href={link} class="flex items-center gap-2 hover:translate-y-1">
       <Image height={48} width={48} src={src} alt={alt} />
       <span>
-        <GradientText>{text}</GradientText>
+        <GradientText text={text} />
       </span>
     </a>
   )
