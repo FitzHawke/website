@@ -19,6 +19,17 @@ export const projects = [
     ],
   },
   {
+    name: 'Soxyn',
+    description:
+      'A declarative and reproducible definition for my personal Linux based operating systems. Contains configurations for the entire system from kernel to userspace apps complete with SOPS secret management. 60% of the time it works everytime',
+    link: 'https://github.com/fitzhawke/soxyn',
+    img: {
+      src: '/assets/images/soxyn.png',
+      alt: 'Soxyn Desktop Example Image',
+    },
+    category: ['Nix', 'NixOS', 'Home-Manager', 'SOPS', 'Linux'],
+  },
+  {
     name: '100D Budget',
     description:
       'A simple budget and expense tracking app made following MVC architecture best practices in the backend. Features full user authentication.',

@@ -13,4 +13,9 @@ export const tagColour: Record<string, string> = {
   'Tailwind.css': 'teal',
   SCSS: 'slate',
   HTML: 'sky',
+  Nix: 'orange',
+  NixOS: 'cyan',
+  'Home-Manager': 'pink',
+  SOPS: 'blue',
+  Linux: 'amber',
 } as const;

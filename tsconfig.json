@@ -34,7 +34,7 @@
     "jsx": "react-jsx",
     // Enable stricter transpilation for better output.
     "isolatedModules": true,
-    "typeRoots": [ "node_modules/@types", "node_modules/@netlify", "node_modules"],
+    // "typeRoots": [ "node_modules/@types", "node_modules/@netlify", "node_modules"],
     // Add type definitions for our Vite runtime.
     "types": ["vite/client"],
 
