@@ -111,11 +111,11 @@ To get a local copy up and running follow these simple example steps.
    ```
 2. Install NPM packages
    ```sh
-   npm install
+   pnpm install
    ```
 3. Start the development server
    ```sh
-   npm run dev
+   pnpm run dev
    ```
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
@@ -130,7 +130,7 @@ To get a local copy up and running follow these simple example steps.
 You can create an optimized production build with:
 
 ```shell
-npm run build
+pnpm run build
 ```
 
 Now, your portfolio is ready to be deployed. All generated files are located at
