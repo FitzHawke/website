@@ -40,7 +40,11 @@
 
     "baseUrl": ".",
     "paths": {
-      "@/*": ["./src/*"]
+      "@assets/*": ["src/assets/*"],
+      "@data/*": ["src/data/*"],
+      "@partials/*": ["src/partials/*"],
+      "@components/*": ["src/components/*"],
+      "@src/*": ["src/*"]
     }
   },
   "include": ["src/**/*.ts", "src/**/*.tsx", "src/**/*.astro"]
