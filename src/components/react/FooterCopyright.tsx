@@ -15,15 +15,6 @@ const FooterCopyright = (props: IFooterCopyrightProps) => (
       >
         FitzHawke
       </a>
-      . Icons by{' '}
-      <a
-        className="text-cyan-400 hover:underline"
-        href="https://icons8.com/"
-        target="_blank"
-        rel="noopener noreferrer"
-      >
-        Icons8
-      </a>
     </div>
   </div>
 );

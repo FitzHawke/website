@@ -1,19 +1,19 @@
 ---
+import Gradient from '@/components/astro/Gradient.astro';
 import SocialLink from '@/components/astro/SocialLink.astro';
-import { GradientText } from '@/components/react/GradientText';
-import { socials } from '@/data/socials.json';
+import { socials } from '@/data/socials';
 ---
 
 <div class="mx-auto max-w-screen-lg px-3 py-6">
   <div class="flex flex-col items-center justify-around gap-6 sm:flex-row">
     <div class="sm:w-7/12">
       <div class="text-3xl font-bold">
-        <GradientText text="Connect" /> with me!
+        <Gradient text="Connect" /> with me!
       </div>
       <p class="mt-3 text-xl text-gray-300">
         I am currently looking for full-time remote or hybrid roles with a
         willingness to relocate. If you would like to work with me or have any
-        feedback on my projects, please reach out, I'd <GradientText
+        feedback on my projects, please reach out, I'd <Gradient
           text="love"
         /> to hear from you!
       </p>
@@ -23,11 +23,11 @@ import { socials } from '@/data/socials.json';
         {
           socials.map((soc) => (
             <SocialLink
-              src={soc.imgSrc}
               alt={soc.imgAlt}
               link={soc.link}
               text={soc.name}
               show={soc.showOnList}
+              rawSVG={soc.svg}
             />
           ))
         }

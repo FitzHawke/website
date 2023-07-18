@@ -1,0 +1,21 @@
+---
+const { alt, rawSVG } = Astro.props;
+---
+
+{
+  (
+    <svg
+      class="w-12 h-12"
+      role={rawSVG.role}
+      viewBox={rawSVG.viewBox}
+      xmlns={rawSVG.xmlns}
+    >
+      <title>{alt}</title>
+      <linearGradient id="gradient" x1="0%" x2="100%" y1="0%" y2="100%">
+        <stop class="begin" offset="0%" stop-color="#0ea5e9" />
+        <stop class="end" offset="100%" stop-color="#67e8f9" />
+      </linearGradient>
+      <path d={rawSVG.path.d} fill="url(#gradient)" />
+    </svg>
+  )
+}

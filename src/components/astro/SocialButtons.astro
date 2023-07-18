@@ -1,15 +1,9 @@
 ---
-import { Image } from '@astrojs/image/components';
+import DrawSVG from './DrawSVG.astro';
 
-const { src, alt, link } = Astro.props;
+const { alt, link, rawSVG } = Astro.props;
 ---
 
-<a href={link}>
-  <Image
-    src={src}
-    alt={alt}
-    height={48}
-    width={48}
-    class="hover:translate-y-1"
-  />
+<a href={link} class="hover:translate-y-1 m-2">
+  <DrawSVG {alt} {rawSVG} />
 </a>

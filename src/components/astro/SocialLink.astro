@@ -1,17 +1,16 @@
 ---
-import { Image } from '@astrojs/image/components';
+import Gradient from './Gradient.astro';
+import DrawSVG from './DrawSVG.astro';
 
-import { GradientText } from '../react/GradientText';
-
-const { src, alt, link, text, show } = Astro.props;
+const { alt, link, text, show, rawSVG } = Astro.props;
 ---
 
 {
   show && (
     <a href={link} class="flex items-center gap-2 hover:translate-y-1">
-      <Image height={48} width={48} src={src} alt={alt} />
+      <DrawSVG {alt} {rawSVG} />
       <span>
-        <GradientText text={text} />
+        <Gradient {text} />
       </span>
     </a>
   )
