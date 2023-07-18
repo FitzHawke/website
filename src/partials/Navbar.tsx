@@ -36,8 +36,8 @@ const Navbar = () => (
           LinkedIn
         </NavMenuItem>
         <NavMenuItem href="https://twitter.com/FitzHawke">Twitter</NavMenuItem>
-        <NavMenuItem href="https://angel.co/u/will-featherston">
-          Angel.co
+        <NavMenuItem href="https://wellfound.com/u/will-featherston">
+          Wellfound
         </NavMenuItem>
       </NavMenu>
     </NavbarTwoColumns>
