@@ -1,5 +1,5 @@
 ---
-import { Image } from '@astrojs/image/components';
+import { Image } from 'astro:assets';
 
 import TechTag from '../components/astro/TechTag.astro';
 
@@ -13,7 +13,7 @@ const { link, img, name, category, description } = Astro.props;
     <a href={link}>
       <Image
         src={img.src}
-        alt={img.src}
+        alt={img.alt}
         format="webp"
         height={176}
         width={340}
