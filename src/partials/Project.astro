@@ -3,7 +3,16 @@ import { Image } from 'astro:assets';
 
 import TechTag from '../components/astro/TechTag.astro';
 
-const { link, img, name, category, description } = Astro.props;
+const { link, img, name, category, description, sn } = Astro.props;
+const projectImage = await (
+  sn === "pefs" ? import('~/assets/pic_pefs.png'):
+  sn === "soxyn" ? import('~/assets/pic_soxyn.png'):
+  sn === "site" ? import('~/assets/pic_site.png'):
+  sn === "steve" ? import('~/assets/pic_steve.png'):
+  sn === "100d" ? import('~/assets/pic_100d.png'):
+  sn === "rhp" ? import('~/assets/pic_rhp.png'):
+  import('~/assets/images/todd-bust.png')
+)
 ---
 
 <div
@@ -12,11 +21,11 @@ const { link, img, name, category, description } = Astro.props;
   <div class="shrink-0">
     <a href={link}>
       <Image
-        src={img.src}
+        src={projectImage.default}
         alt={img.alt}
         format="webp"
-        height={192}
-        width={340}
+        height="192"
+        width="340"
         class="hover:translate-y-1 object-cover h-48 w-80"
       />
     </a>
