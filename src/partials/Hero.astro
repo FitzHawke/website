@@ -4,6 +4,7 @@ import { Image } from 'astro:assets';
 import SocialButtons from '@components/astro/SocialButtons.astro';
 import { socials } from '@data/socials';
 import Gradient from '@components/astro/Gradient.astro';
+import photo from '~/assets/images/Photo.png'
 ---
 
 <div class="mx-auto max-w-screen-lg px-3 py-6">
@@ -12,12 +13,11 @@ import Gradient from '@components/astro/Gradient.astro';
   >
     <div class="shrink-0 mb-10">
       <Image
-        src="/assets/images/Photo.png"
+        src={photo}
         alt="Photograph"
         height={240}
         width={240}
         format="webp"
-        aspectRatio={1}
         class="rounded-full border-8 border-slate-800 object-cover"
       />
     </div>
@@ -36,6 +36,7 @@ import Gradient from '@components/astro/Gradient.astro';
         {
           socials.map((social) => (
             <SocialButtons
+              name={social.name}
               alt={social.imgAlt}
               rawSVG={social.svg}
               link={social.link}

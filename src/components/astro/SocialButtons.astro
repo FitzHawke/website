@@ -1,9 +1,9 @@
 ---
 import DrawSVG from './DrawSVG.astro';
 
-const { alt, link, rawSVG } = Astro.props;
+const { alt, link, rawSVG, name } = Astro.props;
 ---
 
-<a href={link} class="hover:translate-y-1 m-2">
+<a href={link} class="hover:translate-y-1 m-2" aria-label={name}>
   <DrawSVG {alt} {rawSVG} />
 </a>
