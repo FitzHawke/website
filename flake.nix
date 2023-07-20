@@ -1,5 +1,5 @@
 {
-  description = "DevFlake for PEFS";
+  description = "DevFlake for FitzHawkes Website";
 
   inputs = {
     nixpkgs.url = "github:nixos/nixpkgs/nixos-unstable";
@@ -30,7 +30,7 @@
         imports = [{_module.args.pkgs = config.legacyPackages;}];
 
         devShells.default = pkgs.mkShell {
-          name = "PEFS";
+          name = "website";
           packages = with pkgs; [
             nodePackages.pnpm
             nodePackages.typescript
