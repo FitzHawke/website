@@ -30,7 +30,7 @@
 <br />
 <div align="center">
   <a href="https://github.com/FitzHawke/Portfolio">
-    <img src="public/assets/images/logo.png" alt="Logo" width="80" height="80">
+    <img src="./public/logo.png" alt="Logo" width="80" height="80">
   </a>
 
 <h3 align="center">FitzHawke's Portfolio</h3>
@@ -79,7 +79,7 @@
 
 ## About The Project
 
-![Portfolio Screenshot](/public/assets/images/portfolio.png)
+![Portfolio Screenshot](./src/assets/pic_site.png)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
