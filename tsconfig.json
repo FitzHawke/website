@@ -1,16 +1,21 @@
 {
-  "extends": "astro/tsconfigs/strict",
-  "compilerOptions": {
-    "jsx": "react-jsx",
-    "types": ["vite/client"],
-    "baseUrl": ".",
-    "paths": {
-      "@assets/*": ["src/assets/*"],
-      "@data/*": ["src/data/*"],
-      "@partials/*": ["src/partials/*"],
-      "@components/*": ["src/components/*"],
-      "@src/*": ["src/*"]
-    }
-  },
-  "include": ["src/**/*.ts", "src/**/*.tsx", "src/**/*.astro"]
+	"extends": "astro/tsconfigs/strict",
+	"compilerOptions": {
+		"baseUrl": "./",
+		"jsx": "react-jsx",
+		"types": ["vite/client"],
+		"paths": {
+			"@assets/*": ["src/assets/*"],
+			"@components/*": ["src/components/*"],
+			"@data/*": ["src/data/*"],
+			"@partials/*": ["src/partials/*"],
+			"@pages/*": ["src/pages/*"],
+			"@src/*": ["src/*"]
+		},
+		"plugins": [
+			{
+				"name": "@astrojs/ts-plugin"
+			}
+		]
+	}
 }

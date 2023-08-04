@@ -1,47 +1,51 @@
 ---
-import { Image } from 'astro:assets';
+import { Image } from "astro:assets";
 
-import TechTag from '../components/astro/TechTag.astro';
+import TechTag from "../components/astro/TechTag.astro";
 
 const { link, img, name, category, description, sn } = Astro.props;
-const projectImage = await (
-  sn === "pefs" ? import('~/assets/pic_pefs.png'):
-  sn === "soxyn" ? import('~/assets/pic_soxyn.png'):
-  sn === "site" ? import('~/assets/pic_site.png'):
-  sn === "steve" ? import('~/assets/pic_steve.png'):
-  sn === "100d" ? import('~/assets/pic_100d.png'):
-  sn === "rhp" ? import('~/assets/pic_rhp.png'):
-  import('~/assets/images/todd-bust.png')
-)
+const projectImage = await (sn === "pefs"
+	? import("~/assets/pic_pefs.png")
+	: sn === "soxyn"
+	? import("~/assets/pic_soxyn.png")
+	: sn === "site"
+	? import("~/assets/pic_site.png")
+	: sn === "steve"
+	? import("~/assets/pic_steve.png")
+	: sn === "100d"
+	? import("~/assets/pic_100d.png")
+	: sn === "rhp"
+	? import("~/assets/pic_rhp.png")
+	: import("~/assets/images/todd-bust.png"));
 ---
 
 <div
-  class="flex flex-col items-center gap-x-8 rounded-md bg-slate-800 p-3 md:flex-row"
+	class="flex flex-col items-center gap-x-8 rounded-md bg-slate-800 p-3 md:flex-row"
 >
-  <div class="shrink-0">
-    <a href={link}>
-      <Image
-        src={projectImage.default}
-        alt={img.alt}
-        format="webp"
-        height="192"
-        width="340"
-        class="hover:translate-y-1 object-cover h-48 w-80"
-      />
-    </a>
-  </div>
+	<div class="shrink-0">
+		<a href={link}>
+			<Image
+				src={projectImage.default}
+				alt={img.alt}
+				format="webp"
+				height="192"
+				width="340"
+				class="hover:translate-y-1 object-cover h-48 w-80"
+			/>
+		</a>
+	</div>
 
-  <div>
-    <div class="flex flex-col items-center gap-y-2 md:flex-row">
-      <a class="hover:text-cyan-400" href={link}>
-        <div class="text-xl font-semibold">{name}</div>
-      </a>
+	<div>
+		<div class="flex flex-col items-center gap-y-2 md:flex-row">
+			<a class="hover:text-cyan-400" href={link}>
+				<div class="text-xl font-semibold">{name}</div>
+			</a>
 
-      <div class="ml-3 flex flex-wrap gap-2">
-        {category.map((cat: string) => <TechTag tag={cat} />)}
-      </div>
-    </div>
+			<div class="ml-3 flex flex-wrap gap-2">
+				{category.map((cat: string) => <TechTag tag={cat} />)}
+			</div>
+		</div>
 
-    <p class="mt-3 text-gray-400">{description}</p>
-  </div>
+		<p class="mt-3 text-gray-400">{description}</p>
+	</div>
 </div>

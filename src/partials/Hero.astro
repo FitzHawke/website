@@ -1,49 +1,49 @@
 ---
-import { Image } from 'astro:assets';
+import { Image } from "astro:assets";
 
-import SocialButtons from '@components/astro/SocialButtons.astro';
-import { socials } from '@data/socials';
-import Gradient from '@components/astro/Gradient.astro';
-import photo from '~/assets/images/Photo.png'
+import SocialButtons from "@components/astro/SocialButtons.astro";
+import { socials } from "@data/socials";
+import Gradient from "@components/astro/Gradient.astro";
+import photo from "~/assets/images/Photo.png";
 ---
 
 <div class="mx-auto max-w-screen-lg px-3 py-6">
-  <div
-    class="flex flex-col items-center md:flex-row-reverse md:justify-between md:gap-x-24"
-  >
-    <div class="shrink-0 mb-10">
-      <Image
-        src={photo}
-        alt="Photograph"
-        height={240}
-        width={240}
-        format="webp"
-        class="rounded-full border-8 border-slate-800 object-cover"
-      />
-    </div>
-    <div>
-      <h1 class="text-3xl font-bold">
-        Hello there, I'm <Gradient text="Will Featherston"/> 👋
-      </h1>
-      <p class="mt-6 text-xl leading-9">
-        I'm a <Gradient text="Full-Stack Web Developer"/> based in Canada,
-        who is passionate about Web Development, Open-source, Web Accessiblity and
-        Design. I enjoy contributing to open source projects and creating web applications
-        that are responsive, powerful and accessible to all. I sometimes program
-        under the pseudonym <Gradient text="FitzHawke"/>.
-      </p>
-      <div class="mt-3 flex gap-1">
-        {
-          socials.map((social) => (
-            <SocialButtons
-              name={social.name}
-              alt={social.imgAlt}
-              rawSVG={social.svg}
-              link={social.link}
-            />
-          ))
-        }
-      </div>
-    </div>
-  </div>
+	<div
+		class="flex flex-col items-center md:flex-row-reverse md:justify-between md:gap-x-24"
+	>
+		<div class="shrink-0 mb-10">
+			<Image
+				src={photo}
+				alt="Photograph"
+				height={240}
+				width={240}
+				format="webp"
+				class="rounded-full border-8 border-slate-800 object-cover"
+			/>
+		</div>
+		<div>
+			<h1 class="text-3xl font-bold">
+				Hello there, I'm <Gradient text="Will Featherston" /> 👋
+			</h1>
+			<p class="mt-6 text-xl leading-9">
+				I'm a <Gradient text="Full-Stack Web Developer" /> based in Canada, who
+				is passionate about Web Development, Open-source, Web Accessiblity and
+				Design. I enjoy contributing to open source projects and creating web
+				applications that are responsive, powerful and accessible to all. I
+				sometimes program under the pseudonym <Gradient text="FitzHawke" />.
+			</p>
+			<div class="mt-3 flex gap-1">
+				{
+					socials.map((social) => (
+						<SocialButtons
+							name={social.name}
+							alt={social.imgAlt}
+							rawSVG={social.svg}
+							link={social.link}
+						/>
+					))
+				}
+			</div>
+		</div>
+	</div>
 </div>

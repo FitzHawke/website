@@ -1,39 +1,39 @@
 ---
-import { AppConfig } from '@data/appConfig';
-import { projects } from '@data/projects';
-import CTA from '@partials/CTA.astro';
-import Hero from '@partials/Hero.astro';
-import Project from '@partials/Project.astro';
+import { AppConfig } from "@data/appConfig";
+import { projects } from "@data/projects";
+import CTA from "@partials/CTA.astro";
+import Hero from "@partials/Hero.astro";
+import Project from "@partials/Project.astro";
 
-import Base from '../Base.astro';
-import Gradient from '@components/astro/Gradient.astro';
+import Base from "../Base.astro";
+import Gradient from "@components/astro/Gradient.astro";
 
 const { title } = AppConfig;
 const { description } = AppConfig;
 ---
 
 <Base head={{ title, description }}>
-  <Hero />
-  <div class="mx-auto max-w-screen-lg px-3 py-6">
-    <h2 class="mb-6 text-2xl font-bold">
-      Recent <Gradient text="Projects" />
-    </h2>
-    <div class="flex flex-col gap-6">
-      {
-        projects.map((project) => {
-          return (
-            <Project
-              name={project.name}
-              description={project.description}
-              link={project.link}
-              img={project.img}
-              category={project.category}
-              sn={project.shortName}
-            />
-          );
-        })
-      }
-    </div>
-  </div>
-  <CTA />
+	<Hero />
+	<div class="mx-auto max-w-screen-lg px-3 py-6">
+		<h2 class="mb-6 text-2xl font-bold">
+			Recent <Gradient text="Projects" />
+		</h2>
+		<div class="flex flex-col gap-6">
+			{
+				projects.map((project) => {
+					return (
+						<Project
+							name={project.name}
+							description={project.description}
+							link={project.link}
+							img={project.img}
+							category={project.category}
+							sn={project.shortName}
+						/>
+					);
+				})
+			}
+		</div>
+	</div>
+	<CTA />
 </Base>

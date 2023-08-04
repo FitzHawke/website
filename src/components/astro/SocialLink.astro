@@ -1,17 +1,17 @@
 ---
-import Gradient from './Gradient.astro';
-import DrawSVG from './DrawSVG.astro';
+import Gradient from "./Gradient.astro";
+import DrawSVG from "./DrawSVG.astro";
 
 const { alt, link, text, show, rawSVG } = Astro.props;
 ---
 
 {
-  show && (
-    <a href={link} class="flex items-center gap-2 hover:translate-y-1">
-      <DrawSVG {alt} {rawSVG} />
-      <span>
-        <Gradient {text} />
-      </span>
-    </a>
-  )
+	show && (
+		<a href={link} class="flex items-center gap-2 hover:translate-y-1">
+			<DrawSVG {alt} {rawSVG} />
+			<span>
+				<Gradient {text} />
+			</span>
+		</a>
+	)
 }
