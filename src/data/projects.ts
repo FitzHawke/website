@@ -49,17 +49,6 @@ export const projects = [
 		],
 	},
 	{
-		name: "Dream House Matcher",
-		shortName: "rhp",
-		description:
-			"A simple project made to better understand how react and redux interact on the frontend. Features the ability to match house designs with the lots they could potentially be built in. Pulls in all data from an API and stores it in the global state.",
-		link: "/",
-		img: {
-			alt: "Dream House Matcher Image",
-		},
-		category: ["JavaScript", "React.js", "Redux"],
-	},
-	{
 		name: "This Very Website!",
 		shortName: "site",
 		description:
