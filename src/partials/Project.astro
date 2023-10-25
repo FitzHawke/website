@@ -5,18 +5,18 @@ import TechTag from "../components/astro/TechTag.astro";
 
 const { link, img, name, category, description, sn } = Astro.props;
 const projectImage = await (sn === "pefs"
-	? import("~/assets/pic_pefs.png")
+	? import("@assets/pic_pefs.png")
 	: sn === "soxyn"
-	? import("~/assets/pic_soxyn.png")
+	? import("@assets/pic_soxyn.png")
 	: sn === "site"
-	? import("~/assets/pic_site.png")
+	? import("@assets/pic_site.png")
 	: sn === "steve"
-	? import("~/assets/pic_steve.png")
+	? import("@assets/pic_steve.png")
 	: sn === "100d"
-	? import("~/assets/pic_100d.png")
+	? import("@assets/pic_100d.png")
 	: sn === "rhp"
-	? import("~/assets/pic_rhp.png")
-	: import("~/assets/images/todd-bust.png"));
+	? import("@assets/pic_rhp.png")
+	: import("@assets/images/todd-bust.png"));
 ---
 
 <div

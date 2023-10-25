@@ -5,9 +5,6 @@ import robotsTxt from "astro-robots-txt";
 import { defineConfig } from "astro/config";
 
 export default defineConfig({
-	experimental: {
-		assets: true,
-	},
 	site: "https://fitzhawke.com",
 	integrations: [react(), tailwind({}), sitemap(), robotsTxt()],
 });
