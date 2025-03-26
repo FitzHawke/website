@@ -3,7 +3,7 @@ export const projects = [
 		name: "PEFS",
 		shortName: "pefs",
 		description:
-			"A fitness tracker to monitor progress as you get into shape. Currently allows for tracking of time distance and pace of runns. In the future it will also tracking of biking, strength workout progression, weight tracking and graphs to view progress.",
+			"A fitness tracker to monitor progress as you get into shape. Currently allows for tracking of time distance and pace of runs. In the future it will also tracking of biking, strength workout progression, weight tracking and graphs to view progress.",
 		link: "https://pefson.cyclic.app/",
 		img: {
 			alt: "PEFS App Image",
